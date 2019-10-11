@@ -10,9 +10,12 @@ import kotlinx.coroutines.launch
 class MainViewModel internal constructor(private val fruitRepository: FruitRepository) :
     ViewModel() {
 
-
-    public fun getFruit(fruitName: String): LiveData<Fruit> {
+    public fun getFruit(fruitName: String): LiveData<List<Fruit>> {
         return fruitRepository.getFruit(fruitName)
+    }
+
+    public fun getFruitNames(): LiveData<List<String>> {
+        return fruitRepository.getFruitNames()
     }
 
 

@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">SupermarketAssistant</string>
+    <string name="app_name">超市助手</string>
+    <string name="fruitdesc">请输入水果名称</string>
+    <string name="query">查询商品</string>
+    <string name="add">增加商品</string>
+    <string name="fruitCode">商品编码:%1$s</string>
+    <string name="fruitName">商品名称:%1$s</string>
+    <string name="hintCode">商品编码:</string>
+    <string name="hintName">商品名称:</string>
 </resources>
